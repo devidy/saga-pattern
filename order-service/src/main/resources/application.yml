@@ -15,3 +15,9 @@ spring:
     mongodb:
       database: admin
       uri: ${MONGO_DB:mongodb://admin:e123456@localhost:27017}
+
+logging:
+  level:
+    org:
+      apache:
+        kafka: OFF
