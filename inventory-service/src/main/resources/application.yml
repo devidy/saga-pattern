@@ -11,6 +11,7 @@ spring:
     consumer:
       group-id: inventory-service-group
       auto-offset-reset: latest
+  #    todo: criar arquivo para manter  as variaveis de ambiente, para não precisar ficar alterando o application.yml
 
   datasource:
     driver-class-name: org.postgresql.Driver

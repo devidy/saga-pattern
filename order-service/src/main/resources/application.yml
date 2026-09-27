@@ -10,6 +10,7 @@ spring:
     consumer:
       group-id: order-service-group
       auto-offset-reset: latest
+  #    todo: criar arquivo para manter  as variaveis de ambiente, para não precisar ficar alterando o application.yml
 
   data:
     mongodb:
